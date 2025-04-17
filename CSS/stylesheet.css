@@ -95,6 +95,11 @@ h2{
     font-weight: 400;
 }
 
+ul{
+    text-align: left;
+    list-style-position: inside;
+}
+
 .container{
     margin: auto;
     width: 100%;
@@ -116,6 +121,12 @@ h2{
 
 .recipes, #recipes1{
     display: none;
+}
+
+.recipes{
+    width: 40%;
+    position: relative;
+    margin: auto;
 }
 
 button{
