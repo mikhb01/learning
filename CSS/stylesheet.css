@@ -1,0 +1,124 @@
+/* Main-Color: light green or beige
+Color for buttons: warm orange or pastel color 
+Font: Roboto or Merriweather
+
+Layout: Header with title
+grid layout for recipes
+cards rounded corners */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media (width > 600px){
+    
+body{
+    background-color: beige;
+}
+html{
+    font-family: Roboto;
+}
+.title{
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+h2{
+    font-weight: 400;
+}
+
+.container{
+    margin: auto;
+    width: 100%;
+    overflow: auto;
+    display: flex;
+}
+
+.boxes {
+    width: 33.33%;
+    float:left;
+    text-align: center;
+    border: 0.1dvw solid black;
+    margin: 0.5%;
+}
+
+.boxes p{
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.recipes, #recipes1{
+    display: none;
+}
+
+button{
+    background-color: orange;
+    border-radius: 50px;
+    font-size: medium;
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+    cursor: pointer;
+    position: relative;
+}
+
+button:hover{
+    background-color: rgb(210, 161, 69);
+}
+}
+
+@media (width <= 600px){
+    body{
+    background-color: red;
+}
+html{
+    font-family: Roboto;
+}
+.title{
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+h2{
+    font-weight: 400;
+}
+
+.container{
+    margin: auto;
+    width: 100%;
+}
+
+.boxes {
+    width: 100%;
+    text-align: center;
+    border: 0.1dvw solid black;
+    margin: 0.5%;
+}
+
+.boxes p{
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.recipes, #recipes1{
+    display: none;
+}
+
+button{
+    background-color: orange;
+    border-radius: 50px;
+    font-size: medium;
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+    cursor: pointer;
+    position: relative;
+}
+
+button:hover{
+    background-color: rgb(210, 161, 69);
+}
+}
