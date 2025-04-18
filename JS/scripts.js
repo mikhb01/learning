@@ -10,10 +10,6 @@ window.onresize =function(){
     }
 }
 
-function showMore0(){
-    //if()
-}
-
 function showMore(){
     document.getElementById("recipes1").style.display = "block";
     document.getElementById("box1").style.width = "100%";
