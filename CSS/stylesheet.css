@@ -7,14 +7,18 @@ grid layout for recipes
 cards rounded corners */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-@media (width > 600px){
-    
+html{
+    font-family: Roboto;
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: beige;
 }
-html{
-    font-family: Roboto;
-}
+@media (width > 600px){
+
+
+
 .title{
     margin: auto;
     position: relative;
@@ -70,7 +74,6 @@ button{
     padding: 2%;
     margin: 2%;
     cursor: pointer;
-    position: relative;
 }
 
 button:hover{
@@ -79,12 +82,7 @@ button:hover{
 }
 
 @media (width <= 600px){
-    body{
-    background-color: red;
-}
-html{
-    font-family: Roboto;
-}
+
 .title{
     margin: auto;
     position: relative;
