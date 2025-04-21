@@ -46,7 +46,7 @@ function showMore(){
 
         let j = 0;
 
-        const response = await fetch("../JSON/recipe.JSON", {headers:{'Accept': 'application/json'}});
+        const response = await fetch("https://raw.githubusercontent.com/mikhb01/learning/refs/heads/main/JSON/recipe.JSON", {headers:{'Accept': 'application/json'}});
         const liste = document.getElementById("ing1");
 
         let text = await response.json();
