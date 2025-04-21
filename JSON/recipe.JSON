@@ -8,15 +8,13 @@
         },
         {"name":"Griechischer Bauernsalat",
         "shortDesc":"Frisch, gesund und schnell zubereitet – ein mediterraner Klassiker.", 
-        "ingredients":["200g Mehl", "2EL Zucker", "1 TL Backpulver", "1 Prise Salz", "300ml Milch", "1 Ei", 
-        "2 EL Butter"],
-        "creation":"Alle trockenen Zutaten vermengen. Milch, Ei und Butter hinzufügen und zu einem glatten Teig verrühren. In einer Pfanne bei mittlerer Hitze goldbraun ausbacken."
+        "ingredients":["2 Tomaten", "1/2 Gurke", "1/2 rote Zwiebel", "100g Feta", "Schwarze Oliven", "Olivenöl, Zitronensaft, Oregano"],
+        "creation":"Gemüse würfeln, Feta zerbröseln. Alles in eine Schüssel geben, Oliven dazu.Mit Öl, Zitrone und Oregano abschmecken."
         },
         {"name":"Spaghetti Carbonara",
         "shortDesc":"Cremige Carbonara wie in Italien – ganz ohne Sahne!", 
-        "ingredients":["200g Mehl", "2EL Zucker", "1 TL Backpulver", "1 Prise Salz", "300ml Milch", "1 Ei", 
-        "2 EL Butter"],
-        "creation":"Alle trockenen Zutaten vermengen. Milch, Ei und Butter hinzufügen und zu einem glatten Teig verrühren. In einer Pfanne bei mittlerer Hitze goldbraun ausbacken."
+        "ingredients":["200g Spaghetti", "100g Speck", "2 Eier", "50g Parmesan", "Pfeffer, Salz"],
+        "creation":"Spaghetti kochen. Speck anbraten. Eier mit Parmesan vermengen. Nudeln abgießen, sofort mit der Ei-Käse-Mischung und dem Speck vermengen. Pfeffern, servieren."
         }
     ]
 }
