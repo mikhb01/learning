@@ -19,17 +19,13 @@ function showMore(){
 }
 
 function showLess(){
-    if(window.innerWidth <= 600){
-        document.getElementById("recipes1").style.display = "none";
-        document.getElementById("b1").style.display = "inline-block";
-        document.getElementById("box2").style.display = "block";
-        document.getElementById("box3").style.display = "block";
-    }else{
-        document.getElementById("recipes1").style.display = "none";
+    document.getElementById("recipes1").style.display = "none";
+    document.getElementById("b1").style.display = "inline-block";
+    document.getElementById("box2").style.display = "block";        
+    document.getElementById("box3").style.display = "block";
+    
+    if(window.innerWidth > 600){
         document.getElementById("box1").style.width = "33.33%";
-        document.getElementById("b1").style.display = "inline-block";
-        document.getElementById("box2").style.display = "block";
-        document.getElementById("box3").style.display = "block";
     }
 }
 
@@ -42,17 +38,13 @@ function showMore2(){
 }
 
 function showLess2(){
-    if(window.innerWidth <= 600){
-        document.getElementById("recipes2").style.display = "none";
-        document.getElementById("b2").style.display = "inline-block";
-        document.getElementById("box1").style.display = "block";
-        document.getElementById("box3").style.display = "block";
-    }else{
-        document.getElementById("recipes2").style.display = "none";
+    document.getElementById("recipes2").style.display = "none";
+    document.getElementById("b2").style.display = "inline-block";
+    document.getElementById("box1").style.display = "block";
+    document.getElementById("box3").style.display = "block";
+
+    if(window.innerWidth > 600){
         document.getElementById("box2").style.width = "33.33%";
-        document.getElementById("b2").style.display = "inline-block";
-        document.getElementById("box1").style.display = "block";
-        document.getElementById("box3").style.display = "block";
     }
 }
 
