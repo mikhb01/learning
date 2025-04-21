@@ -44,10 +44,10 @@ function showMore(){
 
         schonGeladen1 = true;
 
+        let j = 0;
+
         const response = await fetch("/JSON/recipe.JSON", {headers:{'Accept': 'application/json'}});
         const liste = document.getElementById("ing1");
-
-
 
         let text = await response.json();
         let jsonString = JSON.stringify(text);
@@ -62,6 +62,8 @@ function showMore(){
             console.log(li);
             liste.appendChild(li);
             }
+        document.getElementById("cre1").innerHTML = obj.recipes[j].creation;
+        console.log(obj.recipes[j].creation);
     }
     document.getElementById("recipes1").style.display = "block";
     document.getElementById("box1").style.width = "100%";
@@ -90,10 +92,10 @@ function showMore2(){
 
         schonGeladen2 = true;
 
+        let j = 1;
+
         const response = await fetch("/JSON/recipe.JSON", {headers:{'Accept': 'application/json'}});
         const liste = document.getElementById("ing2");
-
-
 
         let text = await response.json();
         let jsonString = JSON.stringify(text);
@@ -107,7 +109,9 @@ function showMore2(){
             li.textContent = obj.recipes[1].ingredients[i];
             console.log(li);
             liste.appendChild(li);
-            }
+        }
+        document.getElementById("cre2").innerHTML = obj.recipes[j].creation;
+        console.log(obj.recipes[j].creation);
     }
 
     document.getElementById("recipes2").style.display = "block";
@@ -137,10 +141,10 @@ function showMore3(){
 
         schonGeladen3 = true;
 
+        let j = 2;
+
         const response = await fetch("/JSON/recipe.JSON", {headers:{'Accept': 'application/json'}});
         const liste = document.getElementById("ing3");
-
-
 
         let text = await response.json();
         let jsonString = JSON.stringify(text);
@@ -154,7 +158,9 @@ function showMore3(){
             li.textContent = obj.recipes[2].ingredients[i];
             console.log(li);
             liste.appendChild(li);
-            }
+        }
+        document.getElementById("cre3").innerHTML = obj.recipes[j].creation;
+        console.log(obj.recipes[j].creation);
     }
 
     document.getElementById("recipes3").style.display = "block";
