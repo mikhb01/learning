@@ -16,6 +16,11 @@ body{
     background-color: beige;
 }
 
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
 h2{
     font-weight: 400;
 }
@@ -46,6 +51,26 @@ button:hover{
 img{
     max-width: 100%;
 }
+
+.navBar{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 60;
+    background-color: #333;
+}
+.navBar a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navBar:hover{
+    background-color: #FF8A7A;
+}
+
 .title{
     margin: auto;
     position: relative;
