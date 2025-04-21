@@ -15,24 +15,48 @@ html{
 body{
     background-color: beige;
 }
-@media (width > 600px){
-
-
-
-.title{
-    margin: auto;
-    position: relative;
-    text-align: center;
-}
 
 h2{
     font-weight: 400;
+}
+
+h3{
+    font-size: 100%;
 }
 
 ul{
     text-align: left;
     list-style-position: inside;
 }
+
+button{
+    background-color: orange;
+    border-radius: 50px;
+    font-size: medium;
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+    cursor: pointer;
+    position: relative;
+}
+
+button:hover{
+    background-color: rgb(210, 161, 69);
+}
+img{
+    max-width: 100%;
+}
+.title{
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+.textBox{
+    height: 60px;
+}
+
+@media (width > 600px){
 
 .container{
     margin: auto;
@@ -66,37 +90,9 @@ ul{
     margin: auto;
 }
 
-button{
-    background-color: orange;
-    border-radius: 50px;
-    font-size: medium;
-    text-align: center;
-    padding: 2%;
-    margin: 2%;
-    cursor: pointer;
-}
-
-button:hover{
-    background-color: rgb(210, 161, 69);
-}
 }
 
 @media (width <= 600px){
-
-.title{
-    margin: auto;
-    position: relative;
-    text-align: center;
-}
-
-h2{
-    font-weight: 400;
-}
-
-ul{
-    text-align: left;
-    list-style-position: inside;
-}
 
 .container{
     margin: auto;
@@ -125,20 +121,5 @@ ul{
     width: 40%;
     position: relative;
     margin: auto;
-}
-
-button{
-    background-color: orange;
-    border-radius: 50px;
-    font-size: medium;
-    text-align: center;
-    padding: 2%;
-    margin: 2%;
-    cursor: pointer;
-    position: relative;
-}
-
-button:hover{
-    background-color: rgb(210, 161, 69);
 }
 }
