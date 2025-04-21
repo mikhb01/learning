@@ -57,16 +57,12 @@ function showMore3(){
 }
 
 function showLess3(){
-    if(window.innerWidth <= 600){
         document.getElementById("recipes3").style.display = "none";
         document.getElementById("b3").style.display = "inline-block";
         document.getElementById("box2").style.display = "block";
         document.getElementById("box1").style.display = "block";
-    }else{
-        document.getElementById("recipes3").style.display = "none";
-        document.getElementById("box3").style.width = "33.33%";
-        document.getElementById("b3").style.display = "inline-block";
-        document.getElementById("box2").style.display = "block";
-        document.getElementById("box1").style.display = "block";
-    }
+
+        if(window.innerWidth > 600){
+            document.getElementById("box3").style.width = "33.33%";
+        }
 }
