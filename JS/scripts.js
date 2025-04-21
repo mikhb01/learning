@@ -46,7 +46,7 @@ function showMore(){
 
         let j = 0;
 
-        const response = await fetch("/JSON/recipe.JSON", {headers:{'Accept': 'application/json'}});
+        const response = await fetch("../JSON/recipe.JSON", {headers:{'Accept': 'application/json'}});
         const liste = document.getElementById("ing1");
 
         let text = await response.json();
@@ -94,7 +94,7 @@ function showMore2(){
 
         let j = 1;
 
-        const response = await fetch("/JSON/recipe.JSON", {headers:{'Accept': 'application/json'}});
+        const response = await fetch("../JSON/recipe.JSON", {headers:{'Accept': 'application/json'}});
         const liste = document.getElementById("ing2");
 
         let text = await response.json();
@@ -143,7 +143,7 @@ function showMore3(){
 
         let j = 2;
 
-        const response = await fetch("/JSON/recipe.JSON", {headers:{'Accept': 'application/json'}});
+        const response = await fetch("../JSON/recipe.JSON", {headers:{'Accept': 'application/json'}});
         const liste = document.getElementById("ing3");
 
         let text = await response.json();
