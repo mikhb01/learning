@@ -105,7 +105,7 @@ img{
     overflow: hidden;
 }
 
-.recipes, #recipes1{
+.recipes, #recipes1, #recipes2, #recipes3{
     display: none;
 }
 
