@@ -17,7 +17,7 @@ body{
     background-color: #121212;    
     font-family: sans-serif;
 }
-
+/* Backup, if dropdown doesn't work/isnt't implemented yet */
 .navBar{
     background-color: #1E1E1E;
     list-style: none;
@@ -57,6 +57,8 @@ body{
     font-size: 8dvw;
 }
 
+
+/* Dropdown menu */
 .dropbtn{
     display: inline-block;
     color: #E0E0E0;
