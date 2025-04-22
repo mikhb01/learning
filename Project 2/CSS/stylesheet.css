@@ -1,0 +1,107 @@
+/* BG: #121212
+2nd BG: #1E1E1E
+Text: #E0E0E0
+Subtext: #A0A0A0
+primary accent: #00FFFF
+secondary accent: #C084FC
+Hover effect: #3B82F6
+error color: #FF4C4C
+success color: #4ADE80 */
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #121212;    
+    font-family: sans-serif;
+}
+
+.navBar{
+    background-color: #1E1E1E;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 60;
+}
+
+.navBar a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 14px 16px;
+    color: #E0E0E0;
+}
+
+.navBar a.active{
+    background-color: #79a1e2;
+    color: #E0E0E0;
+}
+
+.navBar a:hover{
+    background-color: #3B82F6;
+}
+
+.title{
+    color: #E0E0E0;
+    text-align: center;
+}
+
+.title h1{
+    font-size: 15dvw;
+}
+
+.title h2{
+    font-size: 8dvw;
+}
+
+
+
+
+
+
+
+.color-Boxes{
+    width: 25%;
+    height: 25%;
+    float:left;    
+    color: #E0E0E0;
+    text-align: center;
+    margin: 2%;
+}
+
+#box1{
+    background-color: #1E1E1E;
+}
+
+#box2{
+    background-color: #E0E0E0;
+    color: #121212;
+}
+
+#box3{
+    background-color: #A0A0A0;
+}
+
+#box4{
+    background-color: #00FFFF;
+    color: #121212;
+}
+
+#box5{
+    background-color: #C084FC;
+}
+
+#box6{
+    background-color: #3B82F6;
+}
+
+#box7{
+    background-color: #FF4C4C;
+}
+
+#box8{
+    background-color: #4ADE80;
+}
