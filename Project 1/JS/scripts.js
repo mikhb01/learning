@@ -13,7 +13,7 @@ window.onresize =function(){
 
 // Fetch starting text out of json
 //
-fetch("https://raw.githubusercontent.com/mikhb01/learning/refs/heads/main/JSON/recipe.JSON")
+fetch("https://raw.githubusercontent.com/mikhb01/learning/refs/heads/main/Project%201/JSON/recipe.JSON")
     .then(response => {
         if(!response.ok) {
             throw new Error("Network response was not ok");
@@ -50,7 +50,7 @@ function showMore(){
 
         let j = 0;
 
-        const response = await fetch("https://raw.githubusercontent.com/mikhb01/learning/refs/heads/main/JSON/recipe.JSON", {headers:{'Accept': 'application/json'}});
+        const response = await fetch("https://raw.githubusercontent.com/mikhb01/learning/refs/heads/main/Project%201/JSON/recipe.JSON", {headers:{'Accept': 'application/json'}});
         const liste = document.getElementById("ing1");
 
         let text = await response.json();
@@ -98,7 +98,7 @@ function showMore2(){
 
         let j = 1;
 
-        const response = await fetch("https://raw.githubusercontent.com/mikhb01/learning/refs/heads/main/JSON/recipe.JSON", {headers:{'Accept': 'application/json'}});
+        const response = await fetch("https://raw.githubusercontent.com/mikhb01/learning/refs/heads/main/Project%201/JSON/recipe.JSON", {headers:{'Accept': 'application/json'}});
         const liste = document.getElementById("ing2");
 
         let text = await response.json();
@@ -147,7 +147,7 @@ function showMore3(){
 
         let j = 2;
 
-        const response = await fetch("https://raw.githubusercontent.com/mikhb01/learning/refs/heads/main/JSON/recipe.JSON", {headers:{'Accept': 'application/json'}});
+        const response = await fetch("https://raw.githubusercontent.com/mikhb01/learning/refs/heads/main/Project%201/JSON/recipe.JSON", {headers:{'Accept': 'application/json'}});
         const liste = document.getElementById("ing3");
 
         let text = await response.json();
