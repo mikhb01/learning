@@ -11,22 +11,26 @@ window.onresize =function(){
     }
 }
 
-// For testing if fetching works
+// Fetch starting text out of json
 //
-// fetch("JSON/recipe.JSON")
-//     .then(response => {
-//         if(!response.ok) {
-//             throw new Error("Network response was not ok");
-//         }
-//         return response.json(); //JSON parsing the respone
-//     })
-//     .then(data =>{
-//         console.log(data);
-//         console.log(data.name);
-//     })
-//     .catch(error => {
-//         console.error("There was a problem with the fetch operation", error);
-//     });
+fetch("../JSON/recipe.JSON")
+    .then(response => {
+        if(!response.ok) {
+            throw new Error("Network response was not ok");
+        }
+        return response.json(); //JSON parsing the respone
+    })
+    .then(data =>{
+        document.getElementById("r1").innerHTML = data.recipes[0].name;
+        document.getElementById("r2").innerHTML = data.recipes[1].name;
+        document.getElementById("r3").innerHTML = data.recipes[2].name;
+        document.getElementById("desc1").innerHTML = data.recipes[0].shortDesc;
+        document.getElementById("desc2").innerHTML = data.recipes[1].shortDesc;
+        document.getElementById("desc3").innerHTML = data.recipes[2].shortDesc;
+    })
+    .catch(error => {
+        console.error("There was a problem with the fetch operation", error);
+    });
 
 // Show more/ show less function of buttons
 //Included in it: loading of data and recipe from a JSON file 
