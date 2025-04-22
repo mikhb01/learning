@@ -13,7 +13,7 @@ window.onresize =function(){
 
 // Fetch starting text out of json
 //
-fetch("../JSON/recipe.JSON")
+fetch("https://raw.githubusercontent.com/mikhb01/learning/refs/heads/main/JSON/recipe.JSON")
     .then(response => {
         if(!response.ok) {
             throw new Error("Network response was not ok");
