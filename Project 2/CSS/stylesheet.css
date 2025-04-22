@@ -57,12 +57,47 @@ body{
     font-size: 8dvw;
 }
 
+.dropbtn{
+    display: inline-block;
+    color: #E0E0E0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropbtn{
+    background-color: #79a1e2;
+}
+
+li.dropdown {
+    display: block;
+}
+
+.dropdown-content{
+    display: none;
+    position: relative;
+    z-index: 1;
+}
+
+.dropdown-content a{
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover{
+    background-color: #3B82F6;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
 
 
 
 
 
 
+/*------------------------------------------------------------------*/
 .color-Boxes{
     width: 25%;
     height: 25%;
